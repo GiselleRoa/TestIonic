@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "testionic-df5a7"
+  },
+  "targets": {
+    "testionic-df5a7": {
+      "hosting": {
+        "app": [
+          "testionic-df5a7"
+        ]
+      }
+    }
+  }
+}
