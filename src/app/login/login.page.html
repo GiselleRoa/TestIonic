@@ -8,7 +8,7 @@
   <form [[formGroup]="credentials"]>
     <ion-input type="text" placeholder="@" formControlName="email"></ion-input>
     <ion-input type="test" placeholder="pass" formControlName="password"></ion-input>
-    <ion-button [disabled]="!credentials.valid">Login</ion-button>
-    <ion-button>Register</ion-button>
+    <ion-button [disabled]="!credentials.valid" (click)="ingresar();">Login</ion-button>
+    <ion-button [disabled]="!credentials.valid" (click)="registrar();">Register</ion-button>
   </form>
 </ion-content>
